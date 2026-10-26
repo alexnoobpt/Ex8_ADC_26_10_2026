@@ -6,16 +6,16 @@ if __name__ == " __main__ ":
     op1 = int( input ("> "))
 
     if op1 == 1:
-        print (" (1) m- >km , (2) km - >m")
+        print (" (1) mm- >km , (2) km - >mm")
         op2 = int ( input ("> "))
         
         if op2 == 1:
-            x = float ( input ("m = "))
+            x = float ( input ("mm = "))
             print (f"km = {x /1000} ")
 
         else :
             x = float ( input ("km = "))
-            print (f"m = {x *1000} ")
+            print (f"mm = {x *1000} ")
 
     elif op1 == 2:
             print (" Por implementar ")
